@@ -1,0 +1,29 @@
+.footer {
+    padding : 30px 10px 30px 10px ; 
+    background-color: rgb(243 248 255/1) ;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    display: flex ;
+    position: relative;
+    .links {
+        display: flex ; 
+        align-items: center;
+        justify-content: center;
+        gap: 30px ;
+        a { 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 30px;
+                height: 30px;
+
+            }
+        }
+    }
+}

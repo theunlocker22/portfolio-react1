@@ -1,0 +1,81 @@
+.navbar {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex ; 
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243 248 255/1) ; 
+}
+
+.navbarcontainer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid orange;
+    background: transparent;
+    padding: 20px;
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 15px;
+    
+    .toggle {
+        display: flex ; 
+        justify-content: center; 
+        align-items: center;
+        display: none ; 
+    }
+
+    .navbar-item-container {
+      display: flex;
+      gap: 30px;
+      padding-right: 30px ;
+      align-items: center;
+
+      .navbar-casestudy,
+      .navbar-contactme {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .navbar-home,
+      .navbar-resume {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .navbar-theme {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: transparent;
+        border-left: 2px solid black;
+        padding-left: 30px;
+        color : rgb(2 82 205/1);
+      }
+    }
+  }
+}
+
