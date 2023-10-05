@@ -1,12 +1,16 @@
-import Introduction from "../../components/introduction/Introduction"
-import "./home.scss"
+import Introduction from "../../components/introduction/Introduction";
+import MySkill from "../../components/myskill/MySkill";
+import "./home.scss";
 
-function Home () {
-    return (
-        <div className="home">
-            <Introduction/>
-        </div>
-    )
+function Home() {
+  return (
+    <div className="home">
+      <div className="intro">
+        <Introduction />
+      </div>
+      <MySkill />
+    </div>
+  );
 }
 
-export default Home 
+export default Home;

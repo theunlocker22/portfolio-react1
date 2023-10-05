@@ -1,6 +1,11 @@
 .home {
+    width: 100%;
+}
+
+.intro {
+    background-color: rgb(243 248 255/1) ;
     display: flex ; 
-    width: 97%; 
+    width: 100%;
     justify-content: center; 
     align-items: center;
 }
